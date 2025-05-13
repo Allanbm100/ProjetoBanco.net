@@ -46,7 +46,7 @@ A solução está organizada em 4 projetos distintos:
 
 ```bash
 # Clone o repositório
-git clone https://seu-repositorio.git
+git clone https://github.com/Allanbm100/ProjetoBanco.net.git
 
 # Acesse a pasta raiz da solução
 cd ProjetoBanco.net
