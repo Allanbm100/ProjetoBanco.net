@@ -1,0 +1,34 @@
+﻿@baseUrl = http://localhost:5191
+
+### 🟢 GET - Listar todas as contas
+GET {{baseUrl}}/api/contas
+Accept: application/json
+
+### 🔵 POST - Criar uma nova conta
+POST {{baseUrl}}/api/contas
+Content-Type: application/json
+
+{
+  "titular": "Allan Brito",
+  "numero": "123456",
+  "saldo": 2000
+}
+
+### 🟡 GET - Obter conta por ID
+GET {{baseUrl}}/api/contas/3
+Accept: application/json
+
+### 🟠 PUT - Atualizar conta por ID
+PUT {{baseUrl}}/api/contas/3
+Content-Type: application/json
+
+{
+  "id": 3,
+  "titular": "Allan Brito Moreira",
+  "numero": "123456",
+  "saldo": 4000
+}
+
+### 🔴 DELETE - Remover conta por ID
+DELETE {{baseUrl}}/api/contas/3
+Accept: application/json
